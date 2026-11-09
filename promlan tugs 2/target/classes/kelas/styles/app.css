@@ -1,0 +1,195 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f1f5f9;
+}
+
+.label {
+    -fx-text-fill: #1e293b;
+}
+
+.label-bold {
+    -fx-font-weight: bold;
+    -fx-text-fill: #475569;
+}
+
+.header {
+    -fx-padding: 16 24;
+    -fx-background-color: #0284c7;
+    -fx-alignment: center-left;
+    -fx-border-color: #0369a1;
+    -fx-border-width: 0 0 1 0;
+}
+
+.footer {
+    -fx-padding: 12 24;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e1;
+    -fx-border-width: 1 0 0 0;
+}
+
+.page {
+    -fx-padding: 24;
+}
+
+.card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-padding: 24;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.title-small {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0f172a;
+}
+
+.subtitle {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e293b;
+}
+
+.price-tag {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #16a34a;
+}
+
+.muted {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 12px;
+}
+
+.error {
+    -fx-text-fill: #dc2626;
+    -fx-font-weight: bold;
+}
+
+.success {
+    -fx-text-fill: #16a34a;
+    -fx-font-weight: bold;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Button Styling Kasir Toko */
+.button {
+    -fx-padding: 8 16;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.button-primary {
+    -fx-background-color: #16a34a;
+    -fx-text-fill: #ffffff;
+}
+
+.button-primary:hover {
+    -fx-background-color: #15803d;
+}
+
+.button-secondary {
+    -fx-background-color: #e2e8f0;
+    -fx-text-fill: #334155;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #cbd5e1;
+}
+
+.button-info {
+    -fx-background-color: #0284c7;
+    -fx-text-fill: #ffffff;
+}
+
+.button-info:hover {
+    -fx-background-color: #0369a1;
+}
+
+/* Form Inputs Kasir */
+.text-field, .combo-box {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #0f172a;
+    -fx-prompt-text-fill: #94a3b8;
+    -fx-background-radius: 6;
+    -fx-padding: 9;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6;
+    -fx-border-width: 1;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #0284c7;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #0f172a;
+    -fx-background-color: #ffffff;
+}
+
+/* TableView POS Kasir */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f8fafc;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 0 0 2 0;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #0369a1;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #f1f5f9;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8fafc;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #bae6fd;
+}
+
+.table-row-cell .text, .table-cell {
+    -fx-fill: #1e293b;
+    -fx-text-fill: #1e293b;
+}
+
+.table-row-cell:selected .text, .table-row-cell:selected .table-cell {
+    -fx-fill: #0369a1;
+    -fx-text-fill: #0369a1;
+    -fx-font-weight: bold;
+}
